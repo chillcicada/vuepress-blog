@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# vuepress
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
