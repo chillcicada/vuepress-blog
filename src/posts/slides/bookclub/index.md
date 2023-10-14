@@ -1,6 +1,6 @@
 ---
 title: bookclub
-icon: study
+icon: person-chalkboard
 data: 2023-10-14
 ---
 

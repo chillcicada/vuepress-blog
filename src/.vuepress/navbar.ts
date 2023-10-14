@@ -6,7 +6,7 @@ export default navbar([
   {
     text: "Posts",
     icon: "pen-to-square",
-    prefix: "/posts/",
+    // prefix: "/posts/",
     children: [
       // {
       //   text: "Banana",
@@ -34,7 +34,7 @@ export default navbar([
         children: [
           {
             text: "bookclub",
-            icon: "study",
+            icon: "person-chalkboard",
             link: "bookclub/",
           },
         ],
