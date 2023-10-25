@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           # if your docs needs submodules, uncomment the following line
@@ -24,23 +24,23 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          run_install: true
-          version: 8
+          run_install: |-
+            args:
+              - --shamefully-hoist
+          version: latest
 
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: latest
           cache: pnpm
 
 
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          pnpm run build
-          > src/.vuepress/dist/.nojekyll
+        run: pnpm build
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
@@ -48,3 +48,4 @@ jobs:
           # This is the branch where the docs are deployed to
           branch: gh-pages
           folder: src/.vuepress/dist
+          single-commit: true
