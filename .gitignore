@@ -133,3 +133,6 @@ dist
 src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
+
+# local history files
+.history/

@@ -21,7 +21,7 @@ jobs:
           # if your docs needs submodules, uncomment the following line
           # submodules: true
 
-      - name: Install pnpm
+      - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
           run_install: |-
@@ -40,7 +40,7 @@ jobs:
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: pnpm build
+        run: make dist
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
