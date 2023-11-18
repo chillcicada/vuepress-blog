@@ -40,7 +40,7 @@ jobs:
       - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: make dist
+        run: pnpm install && pnpm build
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
