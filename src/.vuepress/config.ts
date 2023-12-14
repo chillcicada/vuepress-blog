@@ -1,12 +1,14 @@
-import { defineUserConfig } from "vuepress";
-import theme from "./theme.js";
+/** @format */
+
+import { defineUserConfig } from 'vuepress';
+import theme from './theme.js';
 
 export default defineUserConfig({
-  base: "/",
+  base: '/',
 
-  lang: "en-US",
+  lang: 'en-US',
   title: "ChillCicada's vuepress blog",
-  description: "A blog for my to share my school life.",
+  description: 'A blog for my to share my school life.',
 
   theme,
 

@@ -11,17 +11,17 @@ projects:
   - icon: project
     name: project name
     desc: project detailed description
-    link: https://your.project.link
+    link: https://github.com/chillcicada/vuepress-blog
 
   - icon: link
     name: link name
     desc: link detailed description
-    link: https://link.address
+    link: https://chillcicada.com/about
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+#  - icon: book
+#    name: book name
+#    desc: Detailed description of the book
+#    link: https://link.to.your.book
 
   - icon: article
     name: article name
