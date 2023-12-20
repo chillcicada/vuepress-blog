@@ -1,1 +1,3 @@
-declare module 'vuepress-theme-hope';
+/** @format */
+
+declare module 'vuepress-theme-hope'

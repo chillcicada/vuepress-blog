@@ -136,3 +136,10 @@ src/.vuepress/dist/
 
 # local history files
 .history/
+.vscode/
+.idea/
+/temp/
+
+pnpm-lock.yaml
+yarn.lock
+package-lock.json

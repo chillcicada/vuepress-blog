@@ -1,10 +1,10 @@
 /** @format */
 
-import { navbar } from 'vuepress-theme-hope';
+import { navbar } from 'vuepress-theme-hope'
 
 export default navbar([
   '/',
-  '/demo/',
+  // '/demo/',
   {
     text: 'Posts',
     icon: 'pen-to-square',
@@ -24,4 +24,4 @@ export default navbar([
       },
     ],
   },
-]);
+])

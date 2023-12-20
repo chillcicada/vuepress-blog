@@ -2,47 +2,26 @@
 home: true
 layout: BlogHome
 icon: home
-title: Blog Home
+title: "Home"
 heroImage: /logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+heroText: "ChillCicada's Vuepress Blog"
+tagline: "Nothing else now. (WIP)"
 heroFullScreen: true
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://github.com/chillcicada/vuepress-blog
-
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://chillcicada.com/about
-
-#  - icon: book
-#    name: book name
-#    desc: Detailed description of the book
-#    link: https://link.to.your.book
-
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
-
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+  # - icon: project
+  #   name: Repo
+  #   desc: The repo of this blog
+  #   link: https://github.com/chillcicada/vuepress-blog
 
   - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
+    name: Home
+    desc: My home page, collecting my life blogs
+    link: https://chillcicada.com
 
-footer: customize your footer text
+  - icon: link
+    name: About
+    desc: Brief introduction of me
+    link: /about
+
+footer: Welcome to here. Enjoy yourself!
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: BlogHome` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home/).

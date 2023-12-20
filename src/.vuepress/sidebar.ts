@@ -12,6 +12,6 @@ export default sidebar({
       children: 'structure',
     },
     'intro',
-    'slides',
+    // 'slides',
   ],
 });
