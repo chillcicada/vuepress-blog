@@ -7,12 +7,8 @@ heroImage: /logo.svg
 heroText: "ChillCicada's Vuepress Blog"
 tagline: "Nothing else now. (WIP)"
 heroFullScreen: true
+bgImage: /assets/images/cover.webp
 projects:
-  # - icon: project
-  #   name: Repo
-  #   desc: The repo of this blog
-  #   link: https://github.com/chillcicada/vuepress-blog
-
   - icon: /logo.svg
     name: Home
     desc: My home page, collecting my life blogs

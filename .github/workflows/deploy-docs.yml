@@ -1,3 +1,4 @@
+# @format
 
 name: Deploy Docs
 
@@ -29,13 +30,11 @@ jobs:
               - --shamefully-hoist
           version: latest
 
-
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: latest
           cache: pnpm
-
 
       - name: Build Docs
         env:

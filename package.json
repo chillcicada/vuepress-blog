@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "vuepress build src",
-    "clean-dev": "vuepress dev src --clean-cache",
+    "clean-dev": "vuepress dev src --clean-cache --clean-temp",
     "dev": "vuepress dev src",
     "update-package": "pnpm dlx vp-update"
   },
