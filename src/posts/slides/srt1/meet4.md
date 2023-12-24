@@ -4,6 +4,8 @@ icon: person-chalkboard
 layout: Slide
 date: 2023-12-24
 excerpt: "Meet 4 for srt 1"
+category:
+  - SRT
 tag:
   - srt
   - slide

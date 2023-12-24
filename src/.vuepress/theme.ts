@@ -38,6 +38,8 @@ export default hopeTheme({
     },
   },
 
+  contributors: false,
+
   blog: {
     description: 'A FrontEnd programmer.',
     intro: '/intro.html',
