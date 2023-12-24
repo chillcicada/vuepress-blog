@@ -3,9 +3,7 @@
 import { PluginsOptions } from 'vuepress-theme-hope'
 
 const plugins: PluginsOptions = {
-  blog: {
-    excerptLength: 0,
-  },
+  blog: true,
 
   comment: {
     // You should generate and use your own comment service

@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "AIREBO",
+    "bookclub",
+    "katex",
+    "Lazyload",
+    "nanocomposites",
+    "slideend",
+    "slidestart",
+    "vuepress",
+    "Waline",
+    "webp"
+  ],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules/",
+    "dist/",
+    ".cache/",
+    ".temp/",
+    "temp/",
+    "public/",
+    ".*",
+    "pnpm-lock.yaml",
+    "package-lock.json",
+    "yarn.lock",
+    "*.log"
+  ]
+}

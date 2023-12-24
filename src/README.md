@@ -17,7 +17,7 @@ projects:
   - icon: link
     name: About
     desc: Brief introduction of me
-    link: /about
+    link: /about.html
 
 footer: Welcome to here. Enjoy yourself!
 ---

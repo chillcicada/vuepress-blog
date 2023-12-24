@@ -136,7 +136,8 @@ src/.vuepress/dist/
 
 # local history files
 .history/
-.vscode/
+
+# .vscode/
 .idea/
 /temp/
 
