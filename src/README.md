@@ -11,7 +11,7 @@ bgImage: /assets/images/cover.webp
 projects:
   - icon: /logo.svg
     name: Home
-    desc: My home page, collecting my life blogs
+    desc: "My home page, collecting my R & D blogs"
     link: https://chillcicada.com
 
   - icon: link

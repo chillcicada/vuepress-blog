@@ -11,7 +11,4 @@ export default defineUserConfig({
   description: 'A blog for my to share my R & D logs.',
 
   theme,
-
-  // Enable it with pwa
-  // shouldPrefetch: false,
 })
