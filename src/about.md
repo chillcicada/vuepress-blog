@@ -4,6 +4,7 @@ shortTitle: About
 description: "Brief introduction about me."
 star: 99
 sticky: true
+comment: false
 ---
 
 # About

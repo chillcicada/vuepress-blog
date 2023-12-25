@@ -7,7 +7,7 @@ export default defineUserConfig({
   base: '/',
 
   lang: 'en-US',
-  title: "ChillCicada's Vuepress Blog",
+  title: 'Blog',
   description: 'A blog for my to share my R & D logs.',
 
   theme,

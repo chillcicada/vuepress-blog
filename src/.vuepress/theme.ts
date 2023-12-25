@@ -16,7 +16,7 @@ export default hopeTheme({
 
   iconAssets: ['fontawesome-with-brands'],
 
-  logo: '/logo.svg',
+  logo: '/avatar.jpg',
 
   repo: 'chillcicada/vuepress-blog',
 
