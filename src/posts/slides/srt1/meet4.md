@@ -26,7 +26,7 @@ Artificial intelligence design algorithm for nanocomposites optimized for shear 
 - 57 citations
 - 48 references
 - 2019-09-11
-- [Primary Sources](https://iopscience.iop.org/article/10.1088/2399-1984/ab36f0)
+- [Primary Source](https://iopscience.iop.org/article/10.1088/2399-1984/ab36f0)
 
 ---
 
