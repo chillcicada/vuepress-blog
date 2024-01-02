@@ -10,3 +10,16 @@
   -ms-border-radius: 100%;
   -o-border-radius: 100%;
 }
+
+.vp-blog-hero-image {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+
+@media screen and (max-width: 768px) {
+  .vp-blog-mask {
+    background: url('/pCover.webp');
+  }
+}
+
+

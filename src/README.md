@@ -3,8 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: "Home"
-heroImage: /logo.svg
-heroText: Blog
+heroImage: /logo.png
+heroText: "R & D"
 tagline: "Nothing else now. (WIP)"
 heroFullScreen: true
 bgImage: /assets/images/cover.webp
