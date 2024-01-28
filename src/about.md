@@ -9,7 +9,7 @@ comment: false
 
 # About
 
-As the [intro](./intro.html) says, I'm just a boring man.
+A boring man.
 
 <!-- more -->
 

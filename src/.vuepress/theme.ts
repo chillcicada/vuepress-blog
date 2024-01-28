@@ -41,7 +41,7 @@ export default hopeTheme({
   contributors: false,
 
   blog: {
-    description: 'A FrontEnd programmer.',
+    description: 'Aka 寒蝉 desu. An undergraduate in Chemical engineering and technology',
     intro: '/intro.html',
     medias: {
       GitHub: 'https://github.com/chillcicada/',

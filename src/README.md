@@ -17,5 +17,9 @@ projects:
     desc: Brief introduction of me
     link: /about.html
 
+  - name: Courses
+    desc: Courses I have taken
+    link: https://course.chillcicada.com
+
 footer: Welcome to here. Enjoy yourself!
 ---
