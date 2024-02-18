@@ -41,7 +41,7 @@ export default hopeTheme({
   contributors: false,
 
   blog: {
-    description: 'Aka 寒蝉 desu. An undergraduate in Chemical engineering and technology',
+    description: 'Aka 寒蝉 desu.<br /> An undergraduate in Chemical Engineering and Technology.<br /> 烂人一个。',
     intro: '/intro.html',
     medias: {
       GitHub: 'https://github.com/chillcicada/',
