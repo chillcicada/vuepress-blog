@@ -5,7 +5,7 @@ icon: home
 title: "Home"
 heroImage: /logo.png
 heroText: "R & D"
-tagline: "Nothing else now. (WIP)"
+tagline: "Archived | 2024-06-07 | 已归档"
 heroFullScreen: true
 bgImage: /assets/images/cover.webp
 projects:
